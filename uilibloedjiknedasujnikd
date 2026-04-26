@@ -6431,6 +6431,7 @@ do
     ConfigManager:BuildFolderTree();
 end;
 
-return ConfigManager;
-
-return Library
+return {
+    ConfigManager = ConfigManager,
+    Library = Library
+}
